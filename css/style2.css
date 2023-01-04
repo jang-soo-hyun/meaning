@@ -1,0 +1,62 @@
+@charset "UTF-8";
+*{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+a{color: #444; text-decoration: none;}
+body{
+    font-family: 나눔고딕;
+    font-size: 12px;
+    line-height: 22px;
+    color: #333; 
+    min-height: 100vh;
+      
+}
+#bg_wrap{
+    width: 100%;
+    min-height: 100vh;  
+   background-image: url(../images/index/bg2.png);
+   background-repeat: no-repeat;
+    background-position:center;
+   position: relative;
+}
+.bg{
+    position: absolute;
+    top: 40vh;
+    left: 50%;
+    margin-left: -197px;
+    z-index: 9;
+    text-align: center;
+}
+.text{
+    font-family: 'Chosunilbo_myungjo';
+    color: #ddd;
+    line-height: 60px;
+    text-align: center;
+
+    }    
+.text p{
+    font-size: 35px;
+
+}
+.text h1{
+    font-size: 50px;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+.box{
+    font-family: 'Pretendard-Regular';
+    line-height: 30px;
+    display: inline-block;
+}
+.box li{
+    border-radius: 150px;
+    background-color: #d1d1d13f;
+    height: 30px;
+    width: 270px;
+    margin-bottom: 15px;
+    padding: 5px 0;
+}
+.box li a{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}

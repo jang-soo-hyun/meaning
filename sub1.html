@@ -1,0 +1,222 @@
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1420">
+    <title>me;ning</title>
+    <script src="js/jquery-3.6.2.min.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <style>
+        @font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+    @font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+    </style>
+</head>
+<body>
+   <div id="header_wrap"><!--header s-->
+    <div class="header">
+        <ul class="gnb_mini">
+            <li><a href="#">LOGIN</a></li>
+            <li><a href="joni.html">JOIN</a></li>
+            <li><a href="#">CART</a></li>
+        </ul>
+        <div class="header_box">
+        <div class="logo"><a href="sub1.html"><img src="images/logo.png" alt=""></a></div>
+        <ul class="gnb">
+            <li><a href="sub2.html">me;ning</a></li>
+            <li><a href="sub3.html">Scent</a></li>
+            <li><a href="sub4.html">Product</a></li>
+            <li><a href="#">Store</a></li>
+        </ul>
+    </div>
+    </div>
+   </div><!--header e-->
+   <div id="banner"><!--banner_S-->
+    <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="swiper-zoom-container">
+                    <img src="images/sub1/banner.png" />
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-zoom-container">
+                    <img src="images/sub1/banner2.png" />
+                </div>
+            </div>             
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+</div><!--banner_E-->
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        zoom: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        autoplay: {     //자동슬라이드 (false-비활성화)
+          delay: 2500, // 시간 설정
+          disableOnInteraction: false, // false-스와이프 후 자동 재생
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+</script>
+<div id="container"><!--container_S-->
+    <div class="title1">
+    <img src="images/sub1/title1.png" alt="">
+    </div>
+    <div class="contents_left">
+        <div class="box1_wrap">
+            <div class="box1">
+                <h1>SPECIAL</h1>
+                <p>Engraving service</p>
+            </div>
+            <div class="botten">
+                <a href="#">바로 예약하기</a>
+            </div>  
+        </div>
+        <div class="box2_wrap">
+            <div class="box2">
+                <h1>Black Label</h1>
+                <p>특별한 당신을 위한 세상에서 단 하나뿐인 향수
+                   <br> 당신의 특별한 메세지를 향수병에 남겨보세요.
+                   <br>매장에서 스페셜 각인 서비스를 만나보세요.
+                    </p>
+            </div>
+            <div class="box2_img">
+                <img src="images/sub1/black_perfume1.png.png" alt="">
+            </div>   
+            <div class="box2_botten">
+                <a href="#">자세히 보기</a>
+            </div>
+        </div>
+        <div class="box3_wrap">
+            <div class="box3_img">
+                <img src="images/sub1/black_perfume2.png.png" alt="">
+            </div>
+            <div class="box3">
+                <h1>Gold Label</h1>
+                <p>특별한 당신을 위한 세상에서 단 하나뿐인 향수
+                   <br> 당신의 특별한 메세지를 향수병에 남겨보세요.
+                   <br>매장에서 스페셜 각인 서비스를 만나보세요.
+                    </p>
+            </div>
+            <div class="box3_botten">
+                <a href="#">자세히 보기</a>
+            </div>
+        </div>  
+    </div>
+</div><!--container_e-->
+<div id="top_wrap"><!--top s-->
+    <div class="top">
+        <div class="title2">
+        <img src="/images/sub1/title2.png" alt="">
+        </div>
+        <div class="top_box">
+            <div class="top_img">
+                <img src="images/sub1/mid_img.png" alt="">
+            </div>
+            <div class="top_text">
+                <div class="line"></div>
+                <h1>New story</h1>
+                <h2>Nature Collction신규 런칭</h2>
+                <p>바다, 숲, 구름의 
+                   <br>자연을 그대로를 담은 Nature Collction
+                   <br>언제 어디서든 자연을 그대로 느낄 수 있습니다.
+                   <br>향 에센스를 선택하여 본인의 자연을 담은 오드 퍼퓸을 제작해 보세요.
+                   <br>세상에서 하나뿐인 당신의 자연를 찾아보시길 바랍니다.</p>
+                   <div class="top_button">
+                    <a href="#">바로 예약하기</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!--top e-->
+<div id="mid_wrap"><!--mid s-->
+    <div class="mid">
+        <div class="title3">
+            <img src="images/sub1/title3.png" alt="">
+        </div>
+        <ul class="mid_box1">
+            <li><a href="#"><img src="images/sub1/bottle-1.png" alt=""></a></li>
+            <li><a href="#"><h2>Suak up</h2></a></li>
+            <li><a href="#"><p>150ml</p></a></li>
+            <li><a href="#"><h3>128,000원</h3></a></li>
+        </ul>
+        <ul class="mid_box2">
+            <li><a href="#"><img src="images/sub1/bottle-1.png" alt=""></a></li>
+            <li><a href="#"><h2>Suak up</h2></a></li>
+            <li><a href="#"><p>150ml</p></a></li>
+            <li><a href="#"><h3>128,000원</h3></a></li>
+        </ul>
+        <ul class="mid_box3">
+            <li><a href="#"><img src="images/sub1/bottle-1.png" alt=""></a></li>
+            <li><a href="#"><h2>Suak up</h2></a></li>
+            <li><a href="#"><p>150ml</p></a></li>
+            <li><a href="#"><h3>128,000원</h3></a></li>
+        </ul>
+    </div>
+</div><!--mid e-->
+<div id="bottom_wrap"><!--bottom s-->
+    <div class="bottom">
+        <div class="bottom_box">
+            <div class="bottom_img">
+               <a href="#"><img src="images/sub1/main_video2.png" alt=""></a> 
+            </div>
+            <div class="bottom_text">
+                <h2>A dense forest </h2>
+                <h1>자연으로 다시 태어나다.</h1>
+                <p>울창한 숲속을 걷는 듯한 여유롭고 
+                   <br> 싱그러운 느낌의 향입니다.
+                   <br>자연과 하나 된 편안한 나를 만나보세요</p>
+                   <div class="bottom_button">
+                    <a href="#">자세히 보기</a>
+                   </div>
+            </div>
+            <ul class="bottom_img2">
+                <li><a href="#"><img src="images/sub1/smail_viedo1.png" alt=""></a></li>
+                <li><a href="#"><img src="images/sub1/smail_viedo2.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+</div><!--bottom e-->
+<div id="footer"><!--footer_S-->
+    <!--1000/가운데/높이160-->
+    <p>
+         기업명	(주)me;ning
+         <br>대표자  :  장수현   ㅣ 사업자등록번호  : 123-45-6789 
+         <br>주소  :  서울특별시 강남구 테헤란로 74
+         <br> 전화번호  : 02-123-4567  ㅣ  상담센터 1544-1234
+         <br>개인정보책임관리자  :  장수현  ㅣ  통신판매업신고번호 제2022-서울강남-12345호
+    </p>
+    <ul class="footer_icon">
+        <li><a href="#"><img src="images/footer/footer_icon1.png" alt=""></a></li>
+        <li><a href="#"><img src="images/footer/footer_icon2.png" alt=""></a></li>
+        <li><a href="#"><img src="images/footer/footer_icon3.png" alt=""></a></li>
+        <li><a href="#"><img src="images/footer/footer_icon4.png" alt=""></a></li>
+    </ul>
+</div><!--footer_E-->
+   </body>
+</html>
