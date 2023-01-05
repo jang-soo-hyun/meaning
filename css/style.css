@@ -374,10 +374,11 @@ body{
     margin-left: -660px;/*가운데보내기*/
     box-shadow: 1px 4px 4px rgb(0, 0, 0, 0.3);
 }
-.bottom_img{
-    width: 801px;
+.bottom_video{
+    width: 800px;
+    height: 468px;
     padding-top: 90.5px;
-    padding-left: 50px;
+    padding-left: 30px;
     float: left;
     display: block;
 }
