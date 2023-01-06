@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1420">
+    <title>me;ning</title>
+    <script src="js/jquery-3.6.2.min.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <style>
+        @font-face {
+            font-family: 'Pretendard-Regular';
+            src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Chosunilbo_myungjo';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header_wrap"><!--header s-->
+        <div class="header">
+            <ul class="gnb_mini">
+                <li><a href="#">LOGIN</a></li>
+                <li><a href="joni.html">JOIN</a></li>
+                <li><a href="#">CART</a></li>
+            </ul>
+            <div class="header_box">
+                <div class="logo"><a href="sub1.html"><img src="images/logo.png" alt=""></a></div>
+                <ul class="gnb">
+                    <li><a href="sub2.html">me;ning</a></li>
+                    <li><a href="sub3.html">Scent</a></li>
+                    <li><a href="sub4.html">Product</a></li>
+                    <li><a href="sub5-2.html">Store</a></li>
+                </ul>
+            </div>
+        </div>
+    </div><!--header e-->
+    <div id="banner_sub5"></div><!--banner-->
+    <div id="sub5_top_wrap">
+        <div class="sub5_top">
+            <ul class="sub5_top_box1">
+                <li><a href="sub4-1.html"><img src="images/sub5/top_1.png" alt=""></a></li>
+                <li><a href="sub4-2.html"><img src="images/sub5/top2.png" alt=""></a></li>
+                <li><a href="sub4-3.html"><img src="images/sub5/top3.png" alt=""></a></li>
+                <li><a href="sub4-4.html"><img src="images/sub5/top4.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div><!--sub5_top e-->
+    <div id="slider_title_wrap">
+        <div class="slider_title">
+        <img src="images/sub5/new_title.png" alt="">
+        </div>
+    </div>    
+    <section class="regular slider"><!--slider s-->
+        <div class="gallery">
+            <a href="#"></a><img src="images/sub5/new1.png">
+        </div>
+        </div>
+        <div>
+            <div class="gallery">
+                <a href="#"><img src="images/sub5/new1.png">
+            </a>
+            </div>
+        </div>
+        <div class="gallery">
+            <a href="#"><img src="images/sub5/new2.png">
+        </a>
+        </div>
+        </div>
+        <div class="gallery">
+            <a href="#"><img src="images/sub5/new2.png">
+            </a>
+        </div>
+        </div>
+        <div class="gallery">
+           <a href="#"><img src="images/sub5/new3.png">
+        </a>
+        </div>
+        </div>
+        <div class="gallery">
+            <a href="#"><img src="images/sub5/new3.png">
+        </a>
+        </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(document).on('ready', function () {
+            $(".regular").slick({
+                infinite: true, /* 맨끝이미지에서 끝나지 않고 다시 맨앞으로 이동 */
+                slidesToShow: 3, /* 화면에 보여질 이미지 갯수*/
+                slidesToScroll: 1,  /* 스크롤시 이동할 이미지 갯수 */
+                autoplay: true, /* 자동으로 다음이미지 보여주기 */
+                arrows: true, /* 화살표 */
+                dots: true, /* 아래점 */
+                autoplaySpeed: 1000,/* 다음이미지로 넘어갈 시간 */
+                speed: 1000, /* 다음이미지로 넘겨질때 걸리는 시간 */
+                pauseOnHover: true, /* 마우스 호버시 슬라이드 이동 멈춤 */
+                //vertical:true,/* 세로방향으로 슬라이드를 원하면 추가하기// 기본값 가로방향 슬라이드*/
+
+                responsive: [ // 반응형 웹 구현 옵션
+                    {
+                        breakpoint: 960, //화면 사이즈 960px
+                        settings: {
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 768, //화면 사이즈 768px
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+
+        });
+    </script><!--slider e-->
+    <div id="sub5_mid_wrap"><!--sub5 mid s-->
+        <div class="sub5_mid">
+            <div class="sub5_mid_box">
+            </div>
+        </div>
+    </div><!--sub5 mid e-->
+    <div id="sub5_bottom_wrap"><!--sub5 bottom s-->
+        <div class="sub5_bottom">
+            <div class="sub5_bottom_title"><img src="images/sub5/best_title.png" alt=""></div>
+            <ul class="sub5_bottom_box">
+                <li><a href="#"><img src="images/sub5/best1.png" alt=""></a></q></li>
+                <li><a href="#"><img src="images/sub5/best1.png" alt=""></a></q></li>
+                <li><a href="#"><img src="images/sub5/best1.png" alt=""></a></q></li>
+                <li><a href="#"><img src="images/sub5/best1.png" alt=""></a></q></li>
+            </ul>
+            <div class="sub5_bottom_box2_wrap">
+                <div class="sub5_bottom_title"><img src="images/sub5/specal_title.png" alt=""></div>
+                <ul class="sub5_bottom_box2">
+                    <li><a href="#"><img src="images/sub5/black1.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/sub5/black2.png" alt=""></a></li>
+                </ul>
+                <div class="sub5_bottom_box2_mid">
+                    <img src="images/sub5/blck_mid.png" alt="">
+                </div>
+        </div> 
+            <div class="sub5_store_wrap">
+                <div class="sub5_bottom_title"><img src="images/sub5/offlie_store_title.png" alt=""></div>
+                <div class="sub5_store">
+                    <img src="images/sub5/offlin_store.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div><!--sub5 bottom e-->
+    <div id="footer"><!--footer_S-->
+        <!--1000/가운데/높이160-->
+        <p>
+             기업명	(주)me;ning
+             <br>대표자  :  장수현   ㅣ 사업자등록번호  : 123-45-6789 
+             <br>주소  :  서울특별시 강남구 테헤란로 74
+             <br> 전화번호  : 02-123-4567  ㅣ  상담센터 1544-1234
+             <br>개인정보책임관리자  :  장수현  ㅣ  통신판매업신고번호 제2022-서울강남-12345호
+        </p>
+        <ul class="footer_icon">
+            <li><a href="#"><img src="images/footer/footer_icon1.png" alt=""></a></li>
+            <li><a href="#"><img src="images/footer/footer_icon2.png" alt=""></a></li>
+            <li><a href="#"><img src="images/footer/footer_icon3.png" alt=""></a></li>
+            <li><a href="#"><img src="images/footer/footer_icon4.png" alt=""></a></li>
+        </ul>
+    </div><!--footer_E-->
+</body>
+
+</html>
