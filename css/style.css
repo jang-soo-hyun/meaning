@@ -996,6 +996,7 @@ body{
 #sub5_mid_wrap{
     height: 600px;
 }
+
 .sub5_mid{
     width: 1420px;
     margin: 100px auto;
@@ -1003,7 +1004,19 @@ body{
 .sub5_mid_box{
     width: 1420px;
     height: 518px;
-    background-color: aqua;
+    background-image: url(../images/sub5/event.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: banner_ani 15s infinite;
+}
+/*애니메이션 만들기*/
+@keyframes banner_ani{
+    0%{background-image: url(../images/sub5/event.png);}
+    25%{background-image: url(../images/sub5/event2.png);}
+    50%{background-image: url(../images/sub5/event.png);}
+    75%{background-image: url(../images/sub5/event2.png);}
+    100%{background-image: url(../images/sub5/event.png);}
 }
 /*sub5_bottom*/
 #sub5_bottom_wrap{
