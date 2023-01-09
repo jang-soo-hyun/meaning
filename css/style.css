@@ -599,7 +599,7 @@ body{
     background-color: #fff;
     border: 1px solid #aaa;
     position: absolute;
-    top: 50px;
+    top: 50%;
     left: 52%;
     margin-left: -550px;
     margin-top: -448px;
