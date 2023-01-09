@@ -420,6 +420,9 @@ body{
     padding-top: 80px;
     padding-left: 25px;
 }
+.bottom_img2 li:nth-child(1){
+    padding-left: 60px;
+}
 #footer{
     font-family: 'Pretendard-Regular';
     margin: 0 auto;
