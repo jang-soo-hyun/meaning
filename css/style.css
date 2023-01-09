@@ -568,12 +568,12 @@ body{
 .p_text{
     position: absolute;
     top: 0;
-    left: 5px;
-    width: 93%;
+    left: 2px;
+    width: 98%;
     height: 100%;
     background-color: rgba(0,0,0,0.5);
     color: #fff;
-    opacity: 0;   
+    opacity: 0;  
 }
 .sub3_box ul li a:hover .p_text{
     opacity: 1;
