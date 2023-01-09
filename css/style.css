@@ -599,9 +599,10 @@ body{
     background-color: #fff;
     border: 1px solid #aaa;
     position: absolute;
-    top: 30px;
+    top: 50px;
     left: 52%;
     margin-left: -550px;
+    margin-top: -448px;
     padding: 30px;
     box-sizing: border-box;
     position: relative;
