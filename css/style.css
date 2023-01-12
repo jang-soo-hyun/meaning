@@ -167,6 +167,7 @@ body{
     height: 350px;
     background-color: #E5E5E4;
     float: left;
+    padding-left: 28px;
 }
 .box3 h1{
     font-size: 35px;
