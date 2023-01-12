@@ -593,6 +593,56 @@ body{
     height: 100%;
     z-index: 99;
 }
+.popup_wrap2{
+    font-family: 'Pretendard-Regular';
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+}
+.popup_wrap3{
+    font-family: 'Pretendard-Regular';
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+}
+.popup_wrap4{
+    font-family: 'Pretendard-Regular';
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+}
+.popup_wrap5{
+    font-family: 'Pretendard-Regular';
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+}
+.popup_wrap6{
+    font-family: 'Pretendard-Regular';
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+}
 .popup{
     width: 1016px;
     height: 900px;
