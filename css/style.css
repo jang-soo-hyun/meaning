@@ -603,6 +603,12 @@ body{
     height: 100%;
     z-index: 99;
 }
+.popup_text2{
+    position: absolute;
+    top: 630px;
+    left: 70px;
+    z-index: 9;
+}
 .popup_wrap3{
     font-family: 'Pretendard-Regular';
     background-color: rgba(0,0,0,0.5);
@@ -612,6 +618,12 @@ body{
     width: 100%;
     height: 100%;
     z-index: 99;
+}
+.popup_text3{
+    position: absolute;
+    top: 630px;
+    left: 70px;
+    z-index: 9;
 }
 .popup_wrap4{
     font-family: 'Pretendard-Regular';
@@ -623,6 +635,12 @@ body{
     height: 100%;
     z-index: 99;
 }
+.popup_text4{
+    position: absolute;
+    top: 630px;
+    left: 189px;
+    z-index: 9;
+}
 .popup_wrap5{
     font-family: 'Pretendard-Regular';
     background-color: rgba(0,0,0,0.5);
@@ -633,6 +651,12 @@ body{
     height: 100%;
     z-index: 99;
 }
+.popup_text5{
+    position: absolute;
+    top: 630px;
+    left: 132px;
+    z-index: 9;
+}
 .popup_wrap6{
     font-family: 'Pretendard-Regular';
     background-color: rgba(0,0,0,0.5);
@@ -642,6 +666,12 @@ body{
     width: 100%;
     height: 100%;
     z-index: 99;
+}
+.popup_text6{
+    position: absolute;
+    top: 630px;
+    left: 263px;
+    z-index: 9;
 }
 .popup{
     width: 1016px;
@@ -678,7 +708,7 @@ body{
 .popup_text{
     position: absolute;
     top: 630px;
-    left: 200px;
+    left: 119px;
     z-index: 9;
 }
 .popup p{
