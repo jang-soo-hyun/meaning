@@ -1,0 +1,170 @@
+@charset "UTF-8";
+*{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+a{color: #444; text-decoration: none;}
+body{
+    font-family: 나눔고딕;
+    font-size: 12px;
+    line-height: 22px;
+    color: #333; 
+    min-width: 1420px;
+}
+#header_wrap{
+    height: 92px;
+}
+.header{
+    font-family: 'Pretendard-Regular';
+    width: 1420px;
+    margin: 27px auto;
+}
+.gnb_mini{
+    float: right;
+    padding-right: 50px;
+}
+.gnb_mini li{
+    display: block;
+    float: left;
+    padding-left: 10px;
+}
+.header_box{
+    padding-top: 20px;
+}
+.logo{
+    display: block;
+    float: left;
+    padding-left: 50px;
+    margin-left: 30px;
+}
+.gnb{
+    float: right;
+}
+.gnb li{
+    float: left;
+    display: block;
+    padding: 10px 50px 0 50px;
+}
+.gnb li a{
+    font-size: 18px;
+}
+.gnb li a:hover{
+    color: #bbb;
+}
+.swiper-slide{
+    height: 980px;
+}
+
+        /* @import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css'); */
+        @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');}
+        @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 300;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 400;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 500;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 700;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 900;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');}
+
+        body{
+           margin:0 auto;
+        }
+        /* body, table, div, p ,span{font-family:'Nanum Gothic';} */
+        body, table, div, p ,span{font-family:'Noto Sans KR';}
+        
+        a{  font-family: 'Pretendard-Regular';
+            text-decoration: none;
+            color:#333;
+        }
+        #con{
+            width:100%;
+            height: 500px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size:cover;
+            padding:0;
+            font-family: 'Pretendard-Regular';
+        }
+        #login{
+            width:600px;
+            height: 600px;
+            margin:0 auto;
+            /* position: relative; */
+            /* background:#ddd; */
+        }
+        
+        
+        #login_form{
+            /* text-align:center; */
+            border-radius: 10px;
+            padding:30px 50px;
+            background: #fff;
+            text-align: center;
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+        }
+        .login{
+            font-size: 45px;
+            font-weight: 600;
+            color:rgb(78, 78, 78);
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+        }
+
+        .size{
+            width:320px;
+            height:50px;
+            padding-left:10px;
+            background-color: #f4f4f4;
+            /* margin-left:10px; */
+            border:none;
+            border-radius: 5px;
+        }
+
+        .btn{
+            width:326px;
+            height: 40px;
+            font-size:15px;
+            background-color:#dfd0b1;
+            color:rgb(97, 97, 97);
+            font-weight: 600;
+            border:none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .btn:hover{
+            background:#c9ab88bd;
+        }
+        hr{
+            margin-top:20px;
+            background:#eee;
+            
+        }
+        .find{
+            color:#ddd;
+            font-size:12px;
+            padding-top: 10px;
+        }
+        .find span{
+            padding-left:10px;
+        }
+        .find span::before{
+            content:'|';
+            color:#333;
+            padding-right: 10px;
+        }
+        .find span:nth-child(1):before{
+            content:none;
+        }
+        
+        .find span:nth-child(1){
+            padding-left:0px;
+        }
+        
+        .find a:hover{
+            color:#707070;
+        }
+        .num1{
+            width:83px;
+            text-align: left;
+        }
+        .num2{
+            width:235px;
+        }
+        
+
