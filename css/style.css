@@ -848,6 +848,9 @@ body{
     display: block;
     padding-bottom: 12px;
 }
+.sub4-1_box2 p{
+    font-size: 14px;
+}
 .sub4-1_box2 li img{
     opacity: 1;
 }
