@@ -146,3 +146,4 @@ function moveToMain(){
 loginId.addEventListener('keyup', color);
 loginPw.addEventListener('keyup', color);
 loginBtn.addEventListener('click',moveToMain);
+
