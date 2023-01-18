@@ -143,13 +143,13 @@ a{
       40%{transform:scale(1.2);}
       100%{transform:scale(1);}
     }
-    .count_all{
-        width: 880px;
+     .count_all{
         position: absolute;
-        top: 95%;
-        right: -69%;
+        right: 14%;
+        bottom: -27px;
         z-index: 9;
     }
+    
     
     .count-wrap {position: relative;padding: 0 38px;border: 1px solid #ddd;overflow: hidden;width: 60px;}
     .count-wrap > button {border: 0;background: rgb(255, 255, 255);color: #000;width: 38px;height: 47px;position: absolute;top: 0;font-size: 12px;}
