@@ -176,3 +176,32 @@ a{
 .sub6_box3{
     text-align: center;
 }
+/*footer*/
+#footer{
+    font-family: 'Pretendard-Regular';
+    margin: 0 auto;
+    height: 280px;
+    background-color: #F8F3EF;
+    position: relative;   
+}
+#footer p{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 15px;
+    font-weight: 100;
+    color: #545454;
+}
+.footer_icon{
+    position: absolute;
+    top: 70%;
+    left: 45%;
+}
+.footer_icon li{
+    display: block;
+    float: left;
+    padding-right: 20px;
+    
+}
+.footer_icon li a{
+
+}
